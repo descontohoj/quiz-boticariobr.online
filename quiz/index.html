@@ -1,474 +1,1321 @@
-
-<!DOCTYPE html><html><head>
-    
-    <link href="css/oEifrdGm23Qt.css" rel="stylesheet">
+<!DOCTYPE html><html lang="pt"><head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link rel="stylesheet" href="bootstrap.min.html">
-    <link rel="stylesheet" href="css/T5fNd6Lo7csV.css">
-    <link rel="stylesheet" href="css/ItLuQDZT5RNX.css">
-    <script async="" src="js/fbevents.js"></script><script async="" src="js/fbevents_1.js"></script><script async="" src="js/JqOQJhDGPVY3.js"></script><script src="js/H1MM5HDBbF4p.js" crossorigin="anonymous"></script>
-    <link rel="icon" href="images/o4HHq4ph3Xxz.png" type="image/x-icon">
-    <link rel="apple-touch-icon" sizes="180x180" href="images/o4HHq4ph3Xxz.png">
-    <script src="js/K0i1TX25EWGp.js"></script>
-    
- 
-    <title>Quiz Boticário </title>
-    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Loja Oboticário</title>
+    <meta name="theme-color" content="#fff">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="author" content="">
+    <base href="">
+    <link rel="canonical" href="/">
+    <!--  -->
+    <link rel="icon" type="image/png" href="favicon.ico" sizes="32x32">
+    <link rel="icon" type="image/png" href="favicon.ico" sizes="16x16">
+    <meta name="application-name" content="�&nbsp;">
+    <meta name="msapplication-TileColor" content="#FFFFFF">
+    <meta name="msapplication-TileImage" content="mstile-144x144.png">
+    <!-- page description -->
+    <meta name="description" content="Oboticário é a maior rede de Chocolates Finos do mundo. Descubra em nossa loja virtual o universo dos melhores Chocolates: La Creme, Bendito Cacao, Trufas deliciosas, Linha de Chocolates Kids, Tabletes, Kits para Presentear. Confira também nosso Choco Outlet, preços imperdíveis.">
+    <meta name="keywords" content="Oboticário, Chocolates Finos, La Creme, Bendito Cacao, Trufas deliciosas, Chocolates Kids, Tabletes, Kits para Presentear">
+    <meta name="Copyright" content="">
+    <!-- social networks -->
+    <meta property="og:locale" content="pt">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Loja Oboticário">
+    <meta property="og:description" content="Oboticário é a maior rede de Chocolates Finos do mundo. Descubra em nossa loja virtual o universo dos melhores Chocolates: La Creme, Bendito Cacao, Trufas deliciosas, Linha de Chocolates Kids, Tabletes, Kits para Presentear. Confira também nosso Choco Outlet, preços imperdíveis.">
+    <meta property="og:image" content="data:image/png;base64,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">
+    <meta property="og:url" content="/">
+    <meta property="og:site_name" content="Loja Oboticário">
+    <!-- dtime -->
+    <script src="js/dtime.js"></script>
+    <!-- locale -->
+    <script>
+      var lang_locale = "pt";
+    </script>
+    <!-- Css Roleta -->
+    <link rel="stylesheet" href="css/roleta.css">
 
-<!-- Meta Pixel Code -->
-<script>
-!function(f,b,e,v,n,t,s)
-{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];
-s.parentNode.insertBefore(t,s)}(window, document,'script',
-'https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '397006126523435');
-fbq('track', 'PageView');
-</script>
-<noscript><img height="1" width="1" style="display:none"
-src="https://www.facebook.com/tr?id=397006126523435&ev=PageView&noscript=1"
-/></noscript>
-<!-- End Meta Pixel Code -->
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/asset.min.css">
+    <!-- timeTo -->
+    <link rel="stylesheet" href="css/flipclock.css">
+    <!-- styles files -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/media.css">
 
+    <link rel="stylesheet" href="css/all.css">
 
-  
+    <link rel="stylesheet" href="css/sharp-thin.css">
+
+    <link rel="stylesheet" href="css/sharp-solid.css">
+
+    <link rel="stylesheet" href="css/sharp-regular.css">
+
+    <link rel="stylesheet" href="css/sharp-light.css">
   </head>
+
   <body>
-    <header>
-      
-      <!-- <img src="assets/images/google_logo.svg" alt=""> -->
-      <img src="images/I4ArvkQDjsQA.png" alt="">
-      <span id="saldo" style="margin-left: auto"></span>
+    <div class="js-container" style="top: 0px !important"></div>
+    <header style="background-color:#EB6056;" class="it__header">
+      <a href="#maincontent" class="skip" aria-label="Ir para conteúdo principal">Ir para conteúdo principal</a>
+      <a href="#footercontent" class="skip" aria-label="Ir para conteúdo do rodapé">Ir para conteúdo do rodapé</a>
+      <div class="header-banner slide-up d-none">
+        <div class="container">
+          <div class="d-flex justify-content-between">
+            <div class="content"></div>
+            <div class="close-button">
+              <button type="button" class="close" aria-label="Close">
+                <span aria-hidden="true">×</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <nav>
+        <div class="header container">
+          <div class="row it__header--bg">
+            <div class="col-12 col-lg-2">
+              <div class="navbar-header brand">
+                <a class="logo-home" href="#" title="Oboticário Home">
+                  <img class="it_header--logo" src="images/o-boticario-logo-grande-300x111.png" alt="Oboticário">
+                </a>
+
+                <div class="it__search d-md-none">
+                  <div class="site-search">
+                    <form role="search" action="" method="get" name="simpleSearch">
+                      <input class="form-control search-field" type="text" name="q" value="" placeholder="Buscar Produto" role="combobox" aria-describedby="search-assistive-text" aria-haspopup="listbox" aria-owns="search-results" aria-expanded="false" aria-autocomplete="list" aria-activedescendant="" aria-controls="search-results" aria-label="Insira palavra chave ou n° do item" autocomplete="off">
+                      <button type="reset" name="reset-button" class="fa fa-times reset-button d-none" aria-label=""></button>
+                      <button type="submit" name="search-button" class="fa fa-search" aria-label=""></button>
+                      <div class="suggestions-wrapper" data-url="/on/demandware.store/Sites-CacauShow-Site/default/SearchServices-GetSuggestions?q="></div>
+                      <input type="hidden" value="default" name="lang">
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row col-xl-7 col-lg-6">
+              <div class="it__search top d-md-block">
+                <div class="site-search">
+                  <form role="search" action="" method="get" name="simpleSearch">
+                    <input class="form-control search-field" type="text" name="q" value="" placeholder="Buscar Produto" role="combobox" aria-describedby="search-assistive-text" aria-haspopup="listbox" aria-owns="search-results" aria-expanded="false" aria-autocomplete="list" aria-activedescendant="" aria-controls="search-results" aria-label="Insira palavra chave ou n° do item" autocomplete="off">
+                    <button type="reset" name="reset-button" class="fa fa-times reset-button d-none" aria-label=""></button>
+                    <button type="submit" name="search-button" class="fa fa-search" aria-label=""></button>
+                    <div class="suggestions-wrapper" data-url="/on/demandware.store/Sites-CacauShow-Site/default/SearchServices-GetSuggestions?q="></div>
+                    <input type="hidden" value="default" name="lang">
+                  </form>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 it__login it__login--desktop">
+              <div class="it__login--options">
+                <script>
+                  sessionStorage.removeItem("userId");
+                </script>
+
+                <div class="user hidden-md-down">
+                  <a href="#" role="button" aria-label="Entrar na minha conta">
+                    <i class="fa-regular fa-user" style="color: #659c57"></i>
+                    <span class="user-message">Entrar</span>
+                  </a>
+                </div>
+              </div>
+              <div class="it__minicart">
+                <div class="minicart" data-action-url="/on/demandware.store/Sites-CacauShow-Site/default/Cart-MiniCartShow">
+                  <div class="minicart-total hide-link-med">
+                    <a class="minicart-link" href="#" title="carrinho 0 Itens" aria-label="carrinho 0 Itens" aria-haspopup="true">
+                      <i class="fa-regular fa-cart-shopping" style="color: #659c57"></i>
+                      <span class="minicart-quantity"> 0 </span>
+                    </a>
+                  </div>
+
+                  <div class="minicart-total hide-no-link">
+                    <i class="fa-regular fa-cart-shopping" style="color: #659c57"></i>
+                    <span class="minicart-quantity"> 0 </span>
+                  </div>
+                  <div class="popover popover-bottom"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div style="background-color:#00A470 ;" class="it__nav d-xl-none">
+            <div class="row">
+              <div class="col-12">
+                <ul class="it__nav--ul">
+                  <li>
+                    <button class="navbar-toggler d-xl-none">
+                      <i class="fa-solid fa-bars" style="color: black"></i>
+                    </button>
+                  </li>
+                  <li>
+                    <a href="">
+                      <i class="fa-regular fa-store" style="color: black"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="">
+                      <i class="fa-regular fa-user" style="color: black"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <div class="minicart" data-action-url="/on/demandware.store/Sites-CacauShow-Site/default/Cart-MiniCartShow">
+                      <div class="minicart-total hide-link-med">
+                        <a class="minicart-link" href="" title="carrinho 0 Itens" aria-label="carrinho 0 Itens" aria-haspopup="true">
+                          <i class="fa-regular fa-cart-shopping" style="color: black"></i>
+                          <span class="minicart-quantity"> 0 </span>
+                        </a>
+                      </div>
+
+                      <div class="minicart-total hide-no-link">
+                        <i class="fa-regular fa-cart-shopping" style="color: black"></i>
+                        <span class="minicart-quantity"> 0 </span>
+                      </div>
+                      <div class="popover popover-bottom"></div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="it__login it__login--mobile">
+            <div class="it__login--options">
+              <script>
+                sessionStorage.removeItem("userId");
+              </script>
+
+              <div class="user hidden-md-down">
+                <a href="" role="button" aria-label="Entrar na minha conta">
+                  <i class="fa fa-sign-in" aria-hidden="true"></i>
+                  <span class="user-message">Entrar</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="it__subNav main-menu navbar-toggleable-sm menu-toggleable-left multilevel-dropdown" id="sg-navbar-collapse"></div>
+        </div>
+      </nav>
     </header>
+    <!-- main -->
     <main>
-      <div class="card pergunta01" id="pergunta01">
-        <div class="card__logo">
-          <img src="images/hmXYgtLvS4EZ.jpg" alt="">
-        </div>
-        <div class="card__satisfacao">
-          <h2>
-            De 0 a 5, como você avaliaria sua familiaridade com a marca Boticário?
-          </h2>
-          <div class="card__gradeContainer">
-            <div class="card__grade" id="card__grade1" onclick="toggleCard(this)">
-              <i class="fa-regular fa-star" id="star1"></i>
-            </div>
-            <div class="card__grade" id="card__grade2" onclick="toggleCard(this)">
-              <i class="fa-regular fa-star" id="star2"></i>
-            </div>
-            <div class="card__grade" id="card__grade3" onclick="toggleCard(this)">
-              <i class="fa-regular fa-star" id="star3"></i>
-            </div>
-            <div class="card__grade" id="card__grade4" onclick="toggleCard(this)">
-              <i class="fa-regular fa-star" id="star4"></i>
-            </div>
-            <div class="card__grade" id="card__grade5" onclick="toggleCard(this)">
-              <i class="fa-regular fa-star" id="star5"></i>
-            </div>
-          </div>
-          <div class="card__gradeDescricao">
-            <p>Muito ruim</p>
-            <p>Muito bom</p>
-          </div>
-        </div>
-        <div class="card__resposta">
-          <h2>
-            Quando pensa na Boticário, qual a primeira palavra que vem  sua
-            mente?
-          </h2>
-          <div class="resposta__gradeContainer">
-            <div class="resposta__grade resposta1" onclick="toggleResponse(this, 'resposta1')">
-              <p onclick="scrollToDown()">Aroma</p>
-            </div>
-            <div class="resposta__grade resposta1" onclick="toggleResponse(this, 'resposta1')">
-              <p onclick="scrollToDown()">Vaidade</p>
-            </div>
-          </div>
-        </div>
-        <div class="card__resposta">
-          <h2>Qual imagem você associa Boticário?</h2>
-          <div class="resposta__gradeContainer">
-            <div class="resposta__grade resposta2" onclick="toggleResponse(this, 'resposta2')">
-              <p>Um aroma vibrante</p>
-            </div>
-            <div class="resposta__grade resposta2" onclick="toggleResponse(this, 'resposta2')">
-              <p>Uma vaidade sem fim</p>
-            </div>
-          </div>
-        </div>
-        <button class="card__enviarResposta" id="enviarResposta" onclick="pergunta01()" disabled="">
-          Enviar avaliação
-        </button>
+      <div class="main-timer f-center-center">
+        <p class="main-timer__text">A promoção termina em:</p>
+        <div class="main-timer__block js-timer"></div>
       </div>
-      <div class="card pergunta02" id="pergunta02" style="display: none">
-        <div class="card__logo">
-          <img src="images/nPZAZfhMborY.png" alt="">
-        </div>
-        <div class="card__satisfacao">
-          <h2>
-            De 0 a 5, como você avaliaria a qualidade dos perfumes da Boticário que já experimentou?
-          </h2>
-          <div class="card__gradeContainer">
-            <div class="card__grade" id="card__grade1" onclick="toggleCard(this)">
-              <i class="fa-regular fa-star" id="star1"></i>
-            </div>
-            <div class="card__grade" id="card__grade2" onclick="toggleCard(this)">
-              <i class="fa-regular fa-star" id="star2"></i>
-            </div>
-            <div class="card__grade" id="card__grade3" onclick="toggleCard(this)">
-              <i class="fa-regular fa-star" id="star3"></i>
-            </div>
-            <div class="card__grade" id="card__grade4" onclick="toggleCard(this)">
-              <i class="fa-regular fa-star" id="star4"></i>
-            </div>
-            <div class="card__grade" id="card__grade5" onclick="toggleCard(this)">
-              <i class="fa-regular fa-star" id="star5"></i>
-            </div>
-          </div>
-          <div class="card__gradeDescricao">
-            <p>Muito ruim</p>
-            <p>Muito bom</p>
-          </div>
-        </div>
-        <div class="card__resposta">
-          <h2>
-            Em qual momento você prefere sentir a essencia dos perfumes da Boticário?
-          </h2>
-          <div class="resposta__gradeContainer">
-            <div class="resposta__grade resposta1" onclick="toggleResponse(this, 'resposta1')">
-              <p onclick="scrollToDown()">Em ocasiões especiais</p>
-            </div>
-            <div class="resposta__grade resposta1" onclick="toggleResponse(this, 'resposta1')">
-              <p onclick="scrollToDown()">
-                No dia a dia
+      <div class="base-section">
+        <!-- main -->
+        <section class="main">
+          <div class="container">
+            <div class="main-content">
+              <h1 class="main-content__title">Avalie e ganhe!</h1>
+              <p class="main-content__text">
+             
+                Queremos descobrir o quão sortudo(a) você é! Participe de nossa avaliação e ganhe duas chances para girar nossa Roleta de Prêmios Especiais da nossa campanha da semana do consumidor.
+              
               </p>
+              <!-- <div class="main-content__image f-center-center">
+                <img src="assets/prod-img.png" alt="" />
+              </div> -->
             </div>
           </div>
-        </div>
-        <div class="card__resposta">
-          <h2>Qual fragrancia você mais se identifica?</h2>
-          <div class="resposta__gradeContainer">
-            <div class="resposta__grade resposta2" onclick="toggleResponse(this, 'resposta2')">
-              <p>Amadeirado</p>
-            </div>
-            <div class="resposta__grade resposta2" onclick="toggleResponse(this, 'resposta2')">
-              <p>Floral</p>
-            </div>
-          </div>
-        </div>
-        <button class="card__enviarResposta" id="enviarResposta" onclick="pergunta02()" disabled="">
-          Enviar avaliação
-        </button>
-      </div>
-
-      <div class="card pergunta03" id="pergunta03" style="display: none">
-        <div class="card__logo">
-          <img src="images/rafoiHZV9v22.png" alt="">
-        </div>
-        <div class="card__satisfacao">
-          <h2>
-            De 0 a 5, como você avalia a experiência de presentear alguém com
-            produtos da Boticário?
-          </h2>
-          <div class="card__gradeContainer">
-            <div class="card__grade" id="card__grade1" onclick="toggleCard(this)">
-              <i class="fa-regular fa-star" id="star1"></i>
-            </div>
-            <div class="card__grade" id="card__grade2" onclick="toggleCard(this)">
-              <i class="fa-regular fa-star" id="star2"></i>
-            </div>
-            <div class="card__grade" id="card__grade3" onclick="toggleCard(this)">
-              <i class="fa-regular fa-star" id="star3"></i>
-            </div>
-            <div class="card__grade" id="card__grade4" onclick="toggleCard(this)">
-              <i class="fa-regular fa-star" id="star4"></i>
-            </div>
-            <div class="card__grade" id="card__grade5" onclick="toggleCard(this)">
-              <i class="fa-regular fa-star" id="star5"></i>
-            </div>
-          </div>
-          <div class="card__gradeDescricao">
-            <p>Muito ruim</p>
-            <p>Muito bom</p>
-          </div>
-        </div>
-        <div class="card__resposta">
-          <h2>Com quem você adora compartilhar os produtos da Boticário?</h2>
-          <div class="resposta__gradeContainer">
-            <div class="resposta__grade resposta1" onclick="toggleResponse(this, 'resposta1')">
-              <p onclick="scrollToDown()">Família</p>
-            </div>
-            <div class="resposta__grade resposta1" onclick="toggleResponse(this, 'resposta1')">
-              <p onclick="scrollToDown()">Amigos</p>
-            </div>
-          </div>
-        </div>
-        <div class="card__resposta">
-          <h2>
-            Qual produto da Boticário você escolheria para presentear alguém
-            especial?
-          </h2>
-          <div class="resposta__gradeContainer">
-            <div class="resposta__grade resposta2" onclick="toggleResponse(this, 'resposta2')">
-              <p>Perfumes</p>
-            </div>
-            <div class="resposta__grade resposta2" onclick="toggleResponse(this, 'resposta2')">
-              <p>Hidratantes</p>
-            </div>
-          </div>
-        </div>
-        <button class="card__enviarResposta" id="enviarResposta" onclick="pergunta03()" disabled="">
-          Enviar avaliação
-        </button>
-      </div>
-
-      <div class="card pergunta04" id="pergunta04" style="display: none">
-        <div class="card__logo">
-          <img src="t1BUCABZFA6i.Arespostavaimuitoalemdoobvioeesperamosqueelaspossaminspir" alt="">
-        </div>
-        <div class="card__satisfacao">
-          <h2>
-            De 0 a 5, quão importante é a usualidade da marca Boticário para você?
-          </h2>
-          <div class="card__gradeContainer">
-            <div class="card__grade" id="card__grade1" onclick="toggleCard(this)">
-              <i class="fa-regular fa-star" id="star1"></i>
-            </div>
-            <div class="card__grade" id="card__grade2" onclick="toggleCard(this)">
-              <i class="fa-regular fa-star" id="star2"></i>
-            </div>
-            <div class="card__grade" id="card__grade3" onclick="toggleCard(this)">
-              <i class="fa-regular fa-star" id="star3"></i>
-            </div>
-            <div class="card__grade" id="card__grade4" onclick="toggleCard(this)">
-              <i class="fa-regular fa-star" id="star4"></i>
-            </div>
-            <div class="card__grade" id="card__grade5" onclick="toggleCard(this)">
-              <i class="fa-regular fa-star" id="star5"></i>
-            </div>
-          </div>
-          <div class="card__gradeDescricao">
-            <p>Muito ruim</p>
-            <p>Muito bom</p>
-          </div>
-        </div>
-        <div class="card__resposta">
-          <h2>Qual experiência com a Boticário você gostaria de vivenciar?</h2>
-          <div class="resposta__gradeContainer">
-            <div class="resposta__grade resposta1" onclick="toggleResponse(this, 'resposta1')">
-              <p onclick="scrollToDown()">
-                Uma visita na casa da Luana Piovani
+        </section>
+        <!-- quiz -->
+        <section class="quiz">
+          <div class="container">
+            <div class="quiz-reviews">
+              <p class="quiz-reviews__rating">
+                <span class="color_accent">4.5</span> de <span>5</span>
               </p>
-            </div>
-            <div class="resposta__grade resposta1" onclick="toggleResponse(this, 'resposta1')">
-              <p onclick="scrollToDown()">
-                Fazer o seu próprio perfume
+              <div class="quiz-reviews__wrap f-center">
+                <ul class="quiz-stars f-center">
+                  <li class="quiz-stars__item f-center">
+                    <svg width="13" height="29" viewBox="0 0 31 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M15.5 0L18.98 10.7102H30.2414L21.1307 17.3295L24.6107 28.0398L15.5 21.4205L6.38933 28.0398L9.8693 17.3295L0.758624 10.7102H12.02L15.5 0Z" fill="black"></path>
+                    </svg>
+                  </li>
+                  <li class="quiz-stars__item f-center">
+                    <svg width="13" height="29" viewBox="0 0 31 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M15.5 0L18.98 10.7102H30.2414L21.1307 17.3295L24.6107 28.0398L15.5 21.4205L6.38933 28.0398L9.8693 17.3295L0.758624 10.7102H12.02L15.5 0Z" fill="black"></path>
+                    </svg>
+                  </li>
+                  <li class="quiz-stars__item f-center">
+                    <svg width="13" height="29" viewBox="0 0 31 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M15.5 0L18.98 10.7102H30.2414L21.1307 17.3295L24.6107 28.0398L15.5 21.4205L6.38933 28.0398L9.8693 17.3295L0.758624 10.7102H12.02L15.5 0Z" fill="black"></path>
+                    </svg>
+                  </li>
+                  <li class="quiz-stars__item f-center">
+                    <svg width="13" height="29" viewBox="0 0 31 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M15.5 0L18.98 10.7102H30.2414L21.1307 17.3295L24.6107 28.0398L15.5 21.4205L6.38933 28.0398L9.8693 17.3295L0.758624 10.7102H12.02L15.5 0Z" fill="black"></path>
+                    </svg>
+                  </li>
+                  <li class="quiz-stars__item f-center">
+                    <svg width="13" height="31" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M15.5 0L18.98 10.7102H30.2414L21.1307 17.3295L24.6107 28.0398L15.5 21.4205L6.38933 28.0398L9.8693 17.3295L0.758624 10.7102H12.02L15.5 0Z" fill="black"></path>
+                      <path d="M15.5 0L18.98 10.7102H30.2414L21.1307 17.3295L24.6107 28.0398L15.5 21.4205L15.5 19.5V17.3295V14.5L15.5 10V0Z" fill="white"></path>
+                    </svg>
+                  </li>
+                </ul>
+                <p class="quiz-reviews__value">(1806 comentários)</p>
+              </div>
+              <p class="quiz-info">
+                Precisamos ter certeza de que você realmente entendeu o que está
+                sendo discutido e que o produto chega aos clientes reais da
+                nossa loja!
+                <br><br>
+                O número de produtos e participantes é limitado!
               </p>
+              <div class="quiz-block">
+                <div class="quiz-block__item" data-id="1">
+                  <div class="quiz-block__content">
+                    <p class="quiz-block__count">Pergunta 1 de 3</p>
+                    <h2 class="quiz-block__title">
+                      Como você descreveria a experiência de compra na loja O Boticário em uma palavra?
+                    </h2>
+                  </div>
+                  <div class="quiz-block__btns">
+                    <button style="background-color: #00A470;" type="button" class="quiz-block__btn js-quiz">
+                    Fragância
+                    </button>
+                    <button style="background-color: #00A470;" type="button" class="quiz-block__btn js-quiz">
+                     Cosméticos
+                    </button>
+                  </div>
+                </div>
+                <div class="quiz-block__item" data-id="2">
+                  <div class="quiz-block__content">
+                    <p class="quiz-block__count">Pergunta 2 de 3</p>
+                    <h2 class="quiz-block__title">
+                    Quando você se imagina em um momento especial, prefere:
+                    </h2>
+                  </div>
+                  <div class="quiz-block__btns">
+                    <button style="background-color: #00A470;" type="button" class="quiz-block__btn js-quiz">
+                     Uma fragrância suave e elegante
+                    </button>
+                    <button style="background-color: #00A470;" type="button" class="quiz-block__btn js-quiz">
+                     Uma fragrância marcante e poderosa
+                    </button>
+                  </div>
+                </div>
+                <div class="quiz-block__item" data-id="3">
+                  <div class="quiz-block__content">
+                    <p class="quiz-block__count">Pergunta 3 de 3</p>
+                    <h2 class="quiz-block__title">
+                      você recomendaria a Oboticário para seus amigos?
+                    </h2>
+                  </div>
+                  <div class="quiz-block__btns">
+                    <button style="background-color: #00A470;" type="button" class="quiz-block__btn js-final">
+                      Sim
+                    </button>
+                    <button style="background-color: #00A470;" type="button" class="quiz-block__btn js-final">
+                      Não
+                    </button>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="card__resposta">
-          <h2>O que faz a Boticário especial para você?</h2>
-          <div class="resposta__gradeContainer">
-            <div class="resposta__grade resposta2" onclick="toggleResponse(this, 'resposta2')">
-              <p>A qualidade e variedade dos perfumes</p>
-            </div>
-            <div class="resposta__grade resposta2" onclick="toggleResponse(this, 'resposta2')">
-              <p>A transparência com os clientes</p>
-            </div>
-          </div>
-        </div>
-        <button class="card__enviarResposta" id="enviarResposta" onclick="pergunta04()" disabled="">
-          Enviar avaliação
-        </button>
-      </div>
+        </section>
+        <!-- comments -->
+        <section class="comments" id="comments">
+          <div class="container">
+            <div class="main-content">
+              <h2 class="comments__header__title">Comentários:</h2>
+              <div class="comments__header">
+                <div class="comments__header__wrrap">
+                  <div class="comments__header__avatar">
+                    <img src="images/unnamed-user.png" alt="">
+                  </div>
+                  <div class="comments__header__text">
+                    <div class="comments__header__text__inner">
+                      <textarea id="comments-header-textarea" placeholder="Escreva seu comentário"></textarea>
+                    </div>
+                  </div>
+                  <div class="comments__header__btn">
+                    <button disabled="" id="comments-header-btn">
+                      Publicar
+                    </button>
+                  </div>
+                </div>
+                <div class="comments__icons">
+                  <div class="comments__icon">
+                    <div class="comments__icon__wrrap comments__icon__wrrap__smile">
+                      <i class="comments__icon__smile"></i>
+                    </div>
+                  </div>
+                  <div class="comments__icon">
+                    <div class="comments__icon__wrrap">
+                      <i class="comments__icon__photoaparat"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
 
-      <div class="card pergunta05" id="pergunta05" style="display: none">
-        <div class="card__logo">
-          <img src="https://api.mediadownloader.app/get?__sig=Yzmiq_ht78SQda6ZPCVFqw&amp;__expires=1711217604&amp;uri=https%3A%2F%2Finstagram.fbkk5-8.fna.fbcdn.net%2Fv%2Ft51.2885-15%2F431075722_410585744882490_3684173607698499879_n.jpg%3Fstp%3Ddst-jpg_e35%26_nc_ht%3Dinstagram.fbkk5-8.fna.fbcdn.net%26_nc_cat%3D106%26_nc_ohc%3D9vZw6N10kV0AX8zHxOi%26edm%3DAP_V10EBAAAA%26ccb%3D7-5%26oh%3D00_AfCMGIq0AzrMGvSy479uMoDtWXNjSTgInsLPZ8apyiYedg%26oe%3D660341CA%26_nc_sid%3D2999b8&amp;__srvid=instagram&amp;__cid=mTY2wLHa1yPMcXBdrchsqQ" alt="">
-        </div>
-        <div class="card__satisfacao">
-          <h2>
-            De 0 a 5, quão entusiasmado(a) você estaria por novos produtos
-            inovadores da Boticário?
-          </h2>
-          <div class="card__gradeContainer">
-            <div class="card__grade" id="card__grade1" onclick="toggleCard(this)">
-              <i class="fa-regular fa-star" id="star1"></i>
-            </div>
-            <div class="card__grade" id="card__grade2" onclick="toggleCard(this)">
-              <i class="fa-regular fa-star" id="star2"></i>
-            </div>
-            <div class="card__grade" id="card__grade3" onclick="toggleCard(this)">
-              <i class="fa-regular fa-star" id="star3"></i>
-            </div>
-            <div class="card__grade" id="card__grade4" onclick="toggleCard(this)">
-              <i class="fa-regular fa-star" id="star4"></i>
-            </div>
-            <div class="card__grade" id="card__grade5" onclick="toggleCard(this)">
-              <i class="fa-regular fa-star" id="star5"></i>
-            </div>
-          </div>
-          <div class="card__gradeDescricao">
-            <p>Muito ruim</p>
-            <p>Muito bom</p>
-          </div>
-        </div>
-        <div class="card__resposta">
-          <h2>
-            Se você pudesse criar um novo produto para a Boticário, ele seria:
-          </h2>
-          <div class="resposta__gradeContainer">
-            <div class="resposta__grade resposta1" onclick="toggleResponse(this, 'resposta1')">
-              <p onclick="scrollToDown()">
-                Bases novas
-              </p>
-            </div>
-            <div class="resposta__grade resposta1" onclick="toggleResponse(this, 'resposta1')">
-              <p onclick="scrollToDown()">
-                Body Splashes com novas fragrancias
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="card__resposta">
-          <h2>O que você espera da Boticário no futuro?</h2>
-          <div class="resposta__gradeContainer">
-            <div class="resposta__grade resposta2" onclick="toggleResponse(this, 'resposta2')">
-              <p>Mais lojas e acessibilidade</p>
-            </div>
-            <div class="resposta__grade resposta2" onclick="toggleResponse(this, 'resposta2')">
-              <p>Novas parcerias e linhas temáticas exclusivas</p>
-            </div>
-          </div>
-        </div>
-        <button class="card__enviarResposta" id="enviarResposta" onclick="pergunta05()" disabled="">
-          Enviar avaliação
-        </button>
-      </div>
-      <div class="card finalizacao" id="finalizacao" style="display: none">
-        <div class="finalizacao__titulo">
-          <h1 style="font-family: 'Roboto', sans-serif; color: pink;">PARABÉNS!</h1>
-        </div>
-        <div class="finalizacao__trofeu">
-          <img src="images/e869f66a-c3e3-4d67-8c0d-4b90b820f0b1-bot-56142-kit-lily-regular-kit-maes-24-frontal-01.jpg" alt="">
-        </div>
-        <div class="finalizacao__descricao">
-          <p>
-            Você concluiu nossa avaliação da O Boticário e ganhou um
-            <b>Kit Exclusivo oBoticário!</b> Clique no botão
-            <b>RESGATAR</b> abaixo para resgatar seu prêmio.
-          </p>
-          <p>
-            Agradecemos sua participação e esperamos que desfrute do seu combo
-            cheio de aroma e vaidade.<br><br>Com carinho, <br>Equipe O Boticário.
-          </p>
-        </div>
-        <div class="finalizacao__botao">
-          <a href="https://resgate-brinde.store/botprodutos/"><button><i class="fa-solid fa-gift"></i> RESGATAR</button></a>
-        </div>
-      </div>
+              <ul class="comments__items">
+                <!-- Comment -->
+                <li data-id="1" class="comments__item">
+                  <div class="comments__item__inner">
+                    <!-- User avatar -->
+                    <div class="comments__item__avatar">
+                      <img src="images/1.jpg" alt="">
+                    </div>
+                    <!-- end -->
 
-      <button data-bs-toggle="modal" data-bs-target="#modal01" id="popup" style="display: none"></button>
+                    <div class="comments__item__content">
+                      <div class="comments__item__content__inner">
+                        <div class="comments__item__content__wrrap">
+                          <!-- User name -->
+                          <div class="comments__item__content-username">
+                            Allison Santiago
+                          </div>
+                          <!-- end -->
 
-  
-          
-        
-      
+                          <!-- Comment text -->
+                          <div class="comments__item__content-text">
+                            Olá, pode me dizer como funciona e quanto tempo demorou
+                            a entrega?
+                          </div>
+                          <!-- end -->
+                        </div>
+
+                        <!-- Like block -->
+                        <div class="comments__item__content__like">
+                          <span class="comments__item__content__like__icons">
+                            <span class="comments__item__content__like-icon">
+                              <i class="fb-icon-1"></i>
+                            </span>
+                            <span class="comments__item__content__like-icon">
+                              <i class="fb-icon-2"></i>
+                            </span>
+                            <span class="comments__item__content__like-icon">
+                              <i class="fb-icon-3"></i>
+                            </span>
+                          </span>
+                          <span class="comments__item__content__like-count">23</span>
+                        </div>
+                        <!-- end -->
+                      </div>
+
+                      <!-- Comment buttons -->
+                      <ul class="comments__item__btns">
+                        <li class="comments__item__btn">6 horas</li>
+                        <li class="comments__item__btn comments__item__btn-add-like">
+                          Curtir
+                        </li>
+                        <li class="comments__item__btn comments__item__btn-add-comment">
+                          Responder
+                        </li>
+                      </ul>
+                      <!-- end -->
+
+                      <!-- Comments НЕ УДАЛЯТЬ этот блок сюда добавляються новые комменты!!!!! -->
+                      <div class="comments__item__more">
+                        <!-- Comments -->
+                        <ul class="comments__item__more_comments">
+                          <li data-id="2" class="comments__item">
+                            <div class="comments__item__inner">
+                              <!-- User avatar -->
+                              <div class="comments__item__avatar">
+                                <img class="" src="images/3.jpg" alt="">
+                              </div>
+                              <!-- end -->
+
+                              <div class="comments__item__content">
+                                <div class="comments__item__content__inner">
+                                  <div class="comments__item__content__wrrap">
+                                    <!-- User name -->
+                                    <div class="comments__item__content-username">
+                                      Jorge de Aguiar
+                                    </div>
+                                    <!-- end -->
+
+                                    <!-- Comment text -->
+                                    <div class="comments__item__content-text">
+                                      Olá, é só responder o formulário de 3 perguntas e você vai ganhar 1 chance pra girar a roleta. Eu já ganhei meu prêmio e estou aguardando a entrega
+                                    </div>
+                                    <!-- end -->
+                                  </div>
+
+                                  <!-- Like block -->
+                                  <div class="comments__item__content__like">
+                                    <span class="comments__item__content__like__icons">
+                                      <span class="comments__item__content__like-icon">
+                                        <i class="fb-icon-1"></i>
+                                      </span>
+                                      <span class="comments__item__content__like-icon">
+                                        <i class="fb-icon-2"></i>
+                                      </span>
+                                      <span class="comments__item__content__like-icon">
+                                        <i class="fb-icon-3"></i>
+                                      </span>
+                                    </span>
+                                    <span class="comments__item__content__like-count">62</span>
+                                  </div>
+                                  <!-- end -->
+                                </div>
+
+                                <!-- Comment buttons -->
+                                <ul class="comments__item__btns">
+                                  <li class="comments__item__btn">2 horas</li>
+                                  <li class="comments__item__btn comments__item__btn-add-like">
+                                    Curtir
+                                  </li>
+                                  <li class="comments__item__btn comments__item__btn-add-comment">
+                                    Responder
+                                  </li>
+                                </ul>
+                                <!-- end -->
+
+                                <!-- Comments НЕ УДАЛЯТЬ этот блок сюда добавляються новые комменты!!!!! -->
+                                <div class="comments__item__more">
+                                  <!-- Comments -->
+                                  <ul class="comments__item__more_comments">
+                                    <li data-id="3" class="comments__item">
+                                      <div class="comments__item__inner">
+                                        <!-- User avatar -->
+                                        <div class="comments__item__avatar">
+                                          <img class="" src="images/fb3.jpg" alt="">
+                                        </div>
+                                        <!-- end -->
+
+                                        <div class="comments__item__content">
+                                          <div class="comments__item__content__inner">
+                                            <div class="comments__item__content__wrrap">
+                                              <!-- User name -->
+                                              <div class="comments__item__content-username">
+                                                Antonella Balestero
+                                              </div>
+                                              <!-- end -->
+
+                                              <!-- Comment text -->
+                                              <div class="comments__item__content-text">
+                                                Recebi meu mimo do perfume Lily e o Malbec em 2 dias!
+                                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgkdrPOVmK_ugsVdwK2__EczQnzASw-nZV5A&amp;usqp=CAU" alt="">
+                                              </div>
+                                              <!-- end -->
+                                            </div>
+
+                                            <!-- Like block -->
+                                            <div class="comments__item__content__like">
+                                              <span class="comments__item__content__like__icons">
+                                                <span class="comments__item__content__like-icon">
+                                                  <i class="fb-icon-1"></i>
+                                                </span>
+                                                <span class="comments__item__content__like-icon">
+                                                  <i class="fb-icon-2"></i>
+                                                </span>
+                                                <span class="comments__item__content__like-icon">
+                                                  <i class="fb-icon-3"></i>
+                                                </span>
+                                              </span>
+                                              <span class="comments__item__content__like-count">121</span>
+                                            </div>
+                                            <!-- end -->
+                                          </div>
+
+                                          <!-- Comment buttons -->
+                                          <ul class="comments__item__btns">
+                                            <li class="comments__item__btn">
+                                              17 minutos
+                                            </li>
+                                            <li class="comments__item__btn comments__item__btn-add-like">
+                                              Curtir
+                                            </li>
+                                            <li class="comments__item__btn comments__item__btn-add-comment">
+                                              Responder
+                                            </li>
+                                          </ul>
+                                          <!-- end -->
+
+                                          <!-- Comments НЕ УДАЛЯТЬ этот блок сюда добавляються новые комменты!!!!! -->
+                                          <div class="comments__item__more">
+                                            <!-- Comments -->
+                                            <ul class="comments__item__more_comments"></ul>
+                                          </div>
+                                          <!-- end -->
+                                        </div>
+                                      </div>
+                                    </li>
+                                  </ul>
+                                </div>
+                                <!-- end -->
+                              </div>
+                            </div>
+                          </li>
+                          <li class="comments__item" data-id="10">
+                            <div class="comments__item__inner">
+                              <!-- User avatar -->
+                              <div class="comments__item__avatar">
+                                <img src="data:image/png;base64,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" alt="">
+                              </div>
+                              <!-- end -->
+
+                              <div class="comments__item__content">
+                                <div class="comments__item__content__inner">
+                                  <div class="comments__item__content__wrrap">
+                                    <!-- User name -->
+                                    <div class="comments__item__content-username">
+                                      Oboticário
+                                    </div>
+                                    <!-- end -->
+
+                                    <!-- Comment text -->
+                                    <div class="comments__item__content-text">
+                                      Obrigado pelo seu feedback!
+                                    </div>
+                                    <!-- end -->
+                                  </div>
+
+                                  <!-- Like block -->
+                                  <div class="comments__item__content__like">
+                                    <span class="comments__item__content__like__icons">
+                                      <span class="comments__item__content__like-icon">
+                                        <i class="fb-icon-1"></i>
+                                      </span>
+                                      <!-- <span class="comments__item__content__like-icon ">
+                                <i class="fb-icon-2"></i>
+                            </span>
+                            <span class="comments__item__content__like-icon ">
+                                <i class="fb-icon-3"></i>
+                            </span>-->
+                                    </span>
+                                    <span class="comments__item__content__like-count">1</span>
+                                  </div>
+                                  <!-- end -->
+                                </div>
+
+                                <!-- Comment buttons -->
+                                <ul class="comments__item__btns">
+                                  <li class="comments__item__btn">1 minute</li>
+                                  <li class="comments__item__btn comments__item__btn-add-like">
+                                    Curtir
+                                  </li>
+                                  <li class="comments__item__btn comments__item__btn-add-comment">
+                                    Responder
+                                  </li>
+                                </ul>
+                                <!-- end -->
+
+                                <!-- More comments -->
+                                <div class="comments__item__more">
+                                  <ul class="comments__item__more_comments"></ul>
+                                </div>
+                                <!-- end -->
+                              </div>
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+                      <!-- end -->
+                    </div>
+                  </div>
+                </li>
+                <!-- end -->
+
+                <!-- Comment -->
+                <li data-id="4" class="comments__item">
+                  <div class="comments__item__inner">
+                    <!-- User avatar -->
+                    <div class="comments__item__avatar">
+                      <img src="images/m1.jpg" alt="">
+                    </div>
+                    <!-- end -->
+
+                    <div class="comments__item__content">
+                      <div class="comments__item__content__inner">
+                        <div class="comments__item__content__wrrap">
+                          <!-- User name -->
+                          <div class="comments__item__content-username">
+                            Renata Pontes
+                          </div>
+                          <!-- end -->
+
+                          <!-- Comment text -->
+                          <div class="comments__item__content-text">
+                            Quero compartilhar meu resultado. Visitei o site,
+                            preenchi um questionário e tive a oportunidade de
+                            de girar a roleta e conseguir um prêmio. Consegui o kit do perfume Lily e o Malbec e paguei somente o valor do frete. Depois
+                            de 3 dias meu pedido já estava no delivery! Obrigado
+                            por uma oportunidade tão legal!
+                            <!-- <img src="https://i.pinimg.com/736x/7a/4e/f0/7a4ef02a1ef3277b201e639e7d36acca.jpg" alt="" /> -->
+                          </div>
+                          <!-- end -->
+                        </div>
+
+                        <!-- Like block -->
+                        <div class="comments__item__content__like">
+                          <span class="comments__item__content__like__icons">
+                            <span class="comments__item__content__like-icon">
+                              <i class="fb-icon-1"></i>
+                            </span>
+                            <span class="comments__item__content__like-icon">
+                              <i class="fb-icon-2"></i>
+                            </span>
+                            <span class="comments__item__content__like-icon">
+                              <i class="fb-icon-3"></i>
+                            </span>
+                          </span>
+                          <span class="comments__item__content__like-count">418</span>
+                        </div>
+                        <!-- end -->
+                      </div>
+
+                      <!-- Comment buttons -->
+                      <ul class="comments__item__btns">
+                        <li class="comments__item__btn">1 dia</li>
+                        <li class="comments__item__btn comments__item__btn-add-like">
+                          Curtir
+                        </li>
+                        <li class="comments__item__btn comments__item__btn-add-comment">
+                          Responder
+                        </li>
+                      </ul>
+
+                      <!-- More comments-->
+                      <div class="comments__item__more">
+                        <!-- Comments -->
+                        <ul class="comments__item__more_comments">
+                          <li data-id="5" class="comments__item">
+                            <div class="comments__item__inner">
+                              <!-- User avatar -->
+                              <div class="comments__item__avatar">
+                                <img class="" src="data:image/png;base64,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" alt="">
+                              </div>
+                              <!-- end -->
+
+                              <div class="comments__item__content">
+                                <div class="comments__item__content__inner">
+                                  <div class="comments__item__content__wrrap">
+                                    <!-- User name -->
+                                    <div class="comments__item__content-username">
+                                      Oboticário
+                                    </div>
+                                    <!-- end -->
+
+                                    <!-- Comment text -->
+                                    <div class="comments__item__content-text">
+                                      Ficamos felizes que você tenha gostado de
+                                      tudo!
+                                    </div>
+                                    <!-- end -->
+                                  </div>
+
+                                  <!-- Like block -->
+                                  <div class="comments__item__content__like">
+                                    <span class="comments__item__content__like__icons">
+                                      <span class="comments__item__content__like-icon">
+                                        <i class="fb-icon-1"></i>
+                                      </span>
+                                      <span class="comments__item__content__like-icon">
+                                        <i class="fb-icon-2"></i>
+                                      </span>
+                                      <span class="comments__item__content__like-icon">
+                                        <i class="fb-icon-3"></i>
+                                      </span>
+                                    </span>
+                                    <span class="comments__item__content__like-count">84</span>
+                                  </div>
+                                  <!-- end -->
+                                </div>
+
+                                <!-- Comment buttons -->
+                                <ul class="comments__item__btns">
+                                  <li class="comments__item__btn">23 horas</li>
+                                  <li class="comments__item__btn comments__item__btn-add-like">
+                                    Curtir
+                                  </li>
+                                  <li class="comments__item__btn comments__item__btn-add-comment">
+                                    Responder
+                                  </li>
+                                </ul>
+                                <!-- end -->
+
+                                <!-- Comments -->
+                                <div class="comments__item__more">
+                                  <ul class="comments__item__more_comments">
+                                    <li data-id="6" class="comments__item">
+                                      <div class="comments__item__inner">
+                                        <!-- User avatar -->
+                                        <div class="comments__item__avatar">
+                                          <img class="" src="images/w3w3.jpg" alt="">
+                                        </div>
+                                        <!-- end -->
+
+                                        <div class="comments__item__content">
+                                          <div class="comments__item__content__inner">
+                                            <div class="comments__item__content__wrrap">
+                                              <!-- User name -->
+                                              <div class="comments__item__content-username">
+                                                Fabiana Galhardo
+                                              </div>
+                                              <!-- end -->
+
+                                              <!-- Comment text -->
+                                              <div class="comments__item__content-text">
+                                                Quero participar também!
+
+                                                <!--<img src="assets/Untitled-1.png" alt=""> -->
+                                              </div>
+                                              <!-- end -->
+                                            </div>
+
+                                            <!-- Like block -->
+                                            <div class="comments__item__content__like">
+                                              <span class="comments__item__content__like__icons">
+                                                <span class="comments__item__content__like-icon">
+                                                  <i class="fb-icon-1"></i>
+                                                </span>
+                                                <span class="comments__item__content__like-icon">
+                                                  <i class="fb-icon-2"></i>
+                                                </span>
+                                                <span class="comments__item__content__like-icon">
+                                                  <i class="fb-icon-3"></i>
+                                                </span>
+                                              </span>
+                                              <span class="comments__item__content__like-count">2</span>
+                                            </div>
+                                            <!-- end -->
+                                          </div>
+
+                                          <!-- Comment buttons -->
+                                          <ul class="comments__item__btns">
+                                            <li class="comments__item__btn">
+                                              6 horas
+                                            </li>
+                                            <li class="comments__item__btn comments__item__btn-add-like">
+                                              Curtir
+                                            </li>
+                                            <li class="comments__item__btn comments__item__btn-add-comment">
+                                              Responder
+                                            </li>
+                                          </ul>
+                                          <!-- end -->
+
+                                          <!-- Comments НЕ УДАЛЯТЬ этот блок сюда добавляються новые комменты!!!!! -->
+                                          <div class="comments__item__more">
+                                            <ul class="comments__item__more_comments"></ul>
+                                          </div>
+                                          <!-- end -->
+                                        </div>
+                                      </div>
+                                    </li>
+                                  </ul>
+                                </div>
+                                <!-- end -->
+                              </div>
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+                      <!-- end -->
+                    </div>
+                  </div>
+                </li>
+                <!-- end -->
+                <!-- Comment -->
+                <li data-id="6" class="comments__item">
+                  <div class="comments__item__inner">
+                    <!-- User avatar -->
+                    <div class="comments__item__avatar">
+                      <img src="images/face1.jpg" alt="">
+                    </div>
+                    <!-- end -->
+
+                    <div class="comments__item__content">
+                      <div class="comments__item__content__inner">
+                        <div class="comments__item__content__wrrap">
+                          <!-- User name -->
+                          <div class="comments__item__content-username">
+                            Martinho das Dores
+                          </div>
+                          <!-- end -->
+
+                          <!-- Comment text -->
+                          <div class="comments__item__content-text">
+                            Em quanto tempo vou receber meu prêmio?
+
+                            <!--<img src="assets/kastr2.jpg" alt="">-->
+                          </div>
+                          <!-- end -->
+                        </div>
+
+                        <!-- Like block -->
+                        <div class="comments__item__content__like">
+                          <span class="comments__item__content__like__icons">
+                            <span class="comments__item__content__like-icon">
+                              <i class="fb-icon-1"></i>
+                            </span>
+                            <span class="comments__item__content__like-icon">
+                              <i class="fb-icon-2"></i>
+                            </span>
+                            <span class="comments__item__content__like-icon">
+                              <i class="fb-icon-3"></i>
+                            </span>
+                          </span>
+                          <span class="comments__item__content__like-count">32</span>
+                        </div>
+                        <!-- end -->
+                      </div>
+
+                      <!-- Comment buttons -->
+                      <ul class="comments__item__btns">
+                        <li class="comments__item__btn">2 dias</li>
+                        <li class="comments__item__btn comments__item__btn-add-like">
+                          Curtir
+                        </li>
+                        <li class="comments__item__btn comments__item__btn-add-comment">
+                          Responder
+                        </li>
+                      </ul>
+
+                      <!-- Comments НЕ УДАЛЯТЬ этот блок сюда добавляються новые комменты!!!!! -->
+                      <div class="comments__item__more">
+                        <ul class="comments__item__more_comments">
+                          <li data-id="5" class="comments__item">
+                            <div class="comments__item__inner">
+                              <!-- User avatar -->
+                              <div class="comments__item__avatar">
+                                <img class="" src="data:image/png;base64,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" alt="">
+                              </div>
+                              <!-- end -->
+
+                              <div class="comments__item__content">
+                                <div class="comments__item__content__inner">
+                                  <div class="comments__item__content__wrrap">
+                                    <!-- User name -->
+                                    <div class="comments__item__content-username">
+                                      Oboticário
+                                    </div>
+                                    <!-- end -->
+
+                                    <!-- Comment text -->
+                                    <div class="comments__item__content-text">
+                                      Em até 7 dias úteis! Por
+                                      favor, aguarde seu código de rastreio.
+                                    </div>
+                                    <!-- end -->
+                                  </div>
+
+                                  <!-- Like block -->
+                                  <div class="comments__item__content__like">
+                                    <span class="comments__item__content__like__icons">
+                                      <span class="comments__item__content__like-icon">
+                                        <i class="fb-icon-1"></i>
+                                      </span>
+                                      <span class="comments__item__content__like-icon">
+                                        <i class="fb-icon-2"></i>
+                                      </span>
+                                      <span class="comments__item__content__like-icon">
+                                        <i class="fb-icon-3"></i>
+                                      </span>
+                                    </span>
+                                    <span class="comments__item__content__like-count">8</span>
+                                  </div>
+                                  <!-- end -->
+                                </div>
+
+                                <!-- Comment buttons -->
+                                <ul class="comments__item__btns">
+                                  <li class="comments__item__btn">
+                                    1 dia 8 horas
+                                  </li>
+                                  <li class="comments__item__btn comments__item__btn-add-like">
+                                    Curtir
+                                  </li>
+                                  <li class="comments__item__btn comments__item__btn-add-comment">
+                                    Responder
+                                  </li>
+                                </ul>
+                                <!-- end -->
+
+                                <!-- Comments НЕ УДАЛЯТЬ этот блок сюда добавляються новые комменты!!!!! -->
+                                <div class="comments__item__more">
+                                  <ul class="comments__item__more_comments">
+                                    <li data-id="6" class="comments__item">
+                                      <div class="comments__item__inner">
+                                        <!-- User avatar -->
+                                        <div class="comments__item__avatar">
+                                          <img class="" src="images/face2.jpg" alt="">
+                                        </div>
+                                        <!-- end -->
+
+                                        <div class="comments__item__content">
+                                          <div class="comments__item__content__inner">
+                                            <div class="comments__item__content__wrrap">
+                                              <!-- User name -->
+                                              <div class="comments__item__content-username">
+                                                Sabrina Ferraz
+                                              </div>
+                                              <!-- end -->
+
+                                              <!-- Comment text -->
+                                              <div class="comments__item__content-text">
+                                                Obrigado, eu estava prestes a
+                                                fazer a mesma pergunta!
+
+                                                <!--<img src="assets/Untitled-1.png" alt=""> -->
+                                              </div>
+                                              <!-- end -->
+                                            </div>
+
+                                            <!-- Like block -->
+                                            <div class="comments__item__content__like">
+                                              <span class="comments__item__content__like__icons">
+                                                <span class="comments__item__content__like-icon">
+                                                  <i class="fb-icon-1"></i>
+                                                </span>
+                                                <span class="comments__item__content__like-icon">
+                                                  <i class="fb-icon-2"></i>
+                                                </span>
+                                                <span class="comments__item__content__like-icon">
+                                                  <i class="fb-icon-3"></i>
+                                                </span>
+                                              </span>
+                                              <span class="comments__item__content__like-count">14</span>
+                                            </div>
+                                            <!-- end -->
+                                          </div>
+
+                                          <!-- Comment buttons -->
+                                          <ul class="comments__item__btns">
+                                            <li class="comments__item__btn">
+                                              45 minutos
+                                            </li>
+                                            <li class="comments__item__btn comments__item__btn-add-like">
+                                              Curtir
+                                            </li>
+                                            <li class="comments__item__btn comments__item__btn-add-comment">
+                                              Responder
+                                            </li>
+                                          </ul>
+                                          <!-- end -->
+
+                                          <!-- Comments НЕ УДАЛЯТЬ этот блок сюда добавляються новые комменты!!!!! -->
+                                          <div class="comments__item__more">
+                                            <ul class="comments__item__more_comments"></ul>
+                                          </div>
+                                          <!-- end -->
+                                        </div>
+                                      </div>
+                                    </li>
+                                    <li data-id="6" class="comments__item">
+                                      <div class="comments__item__inner">
+                                        <!-- User avatar -->
+                                        <div class="comments__item__avatar">
+                                          <img class="" src="images/face3.jpg" alt="">
+                                        </div>
+                                        <!-- end -->
+                                        <div class="comments__item__content">
+                                          <div class="comments__item__content__inner">
+                                            <div class="comments__item__content__wrrap">
+                                              <!-- User name -->
+                                              <div class="comments__item__content-username">
+                                                Hugo Verdugo
+                                              </div>
+                                              <!-- end -->
+
+                                              <!-- Comment text -->
+                                              <div class="comments__item__content-text">
+                                                Obrigado pela excelente
+                                                promoção. Recebi meu pedido!
+                                                <!-- <img
+                                                  src="assets/unbox3.jpg"
+                                                  alt=""
+                                                /> -->
+                                              </div>
+                                              <!-- end -->
+                                            </div>
+
+                                            <!-- Like block -->
+                                            <div class="comments__item__content__like">
+                                              <span class="comments__item__content__like__icons">
+                                                <span class="comments__item__content__like-icon">
+                                                  <i class="fb-icon-1"></i>
+                                                </span>
+                                                <span class="comments__item__content__like-icon">
+                                                  <i class="fb-icon-2"></i>
+                                                </span>
+                                                <span class="comments__item__content__like-icon">
+                                                  <i class="fb-icon-3"></i>
+                                                </span>
+                                              </span>
+                                              <span class="comments__item__content__like-count">61</span>
+                                            </div>
+                                            <!-- end -->
+                                          </div>
+
+                                          <!-- Comment buttons -->
+                                          <ul class="comments__item__btns">
+                                            <li class="comments__item__btn">
+                                              12 minutos
+                                            </li>
+                                            <li class="comments__item__btn comments__item__btn-add-like">
+                                              Curtir
+                                            </li>
+                                            <li class="comments__item__btn comments__item__btn-add-comment">
+                                              Responder
+                                            </li>
+                                          </ul>
+                                          <!-- end -->
+
+                                          <!-- Comments НЕ УДАЛЯТЬ этот блок сюда добавляються новые комменты!!!!! -->
+                                          <div class="comments__item__more">
+                                            <ul class="comments__item__more_comments"></ul>
+                                          </div>
+                                          <!-- end -->
+                                        </div>
+                                      </div>
+                                    </li>
+                                  </ul>
+                                </div>
+                                <!-- end -->
+                              </div>
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+                      <!-- end -->
+                    </div>
+                  </div>
+                </li>
+                <!-- end -->
+              </ul>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div class="process-section">
+        <section class="process">
+          <div class="container">
+            <div class="process-content">
+              <h2 class="process-content__title">
+                Suas respostas foram verificadas...
+              </h2>
+            </div>
+            <div class="process-inner f-center-center">
+              <svg viewBox="0 0 64 64" class="process-circle">
+                <circle class="background" r="27.5%" cx="50%" cy="50%" style="stroke-width: 1"></circle>
+                <circle class="background" r="22%" cx="50%" cy="50%" style="stroke-width: 1"></circle>
+                <circle class="process-circle__chart" r="25%" cx="50%" cy="50%" stroke-dasharray="0 0"></circle>
+                <text id="count" x="50%" y="55%" fill="black" text-anchor="middle" dy="0" font-size="6.5"></text>
+              </svg>
+            </div>
+            <ul class="process-list">
+              <li class="process-list__item process-list__item_first">
+                Você respondeu 3/3 das perguntas...
+              </li>
+              <li class="process-list__item process-list__item_second">
+                Seu IP não participou antes...
+              </li>
+              <li class="process-list__item process-list__item_third">
+                Presentes baixados...
+              </li>
+            </ul>
+          </div>
+        </section>
+      </div>
+      <div class="gift-section">
+        <iframe src="index_1.html" frameborder="0" style="width: 100%; height: 400px"></iframe>
+      </div>
     </main>
+    <!-- popup -->
+    <div class="popup gift-popup">
+      <div class="popup-overlay">
+        <div class="popup-body">
+          <div class="popup-content">
+            <!-- <div class="popup-content__box f-center-center">
+              <img src="assets/box-main.png" alt="" />
+            </div> -->
+            <h2 class="popup-content__title">
+              Obrigado por concluir nossa avaliação!
+            </h2>
+            <p class="popup-content__text">
+              Hoje,
+              <span id="dataHoje">Sexta-feira, 5 de Abril de 2024</span>, você tem a chance de ganhar um
+              produto oBoticário! <br><br>
+              Tudo que você precisa fazer é girar a roleta e torcer pelo seu
+              prêmio favorito!
+              <br><br>
+              Você tem 1 tentativa, boa sorte! <br><br>
+              <strong style="font-weight: bold;">Gire a roleta e concorra a incríveis kits:</strong><br><br>
+              Perfume Linda + Creme Hidratante Lily
+              Perfume Lily + Malbec
+              Creme Nativa Spa
+              Amostra de Perfume Malbec
+            </p>
+            <script type="text/javascript">
+              var currentDate = new Date(); // Obtém a data atual
+              var diasSemana = [
+                "Domingo",
+                "Segunda-feira",
+                "Terça-feira",
+                "Quarta-feira",
+                "Quinta-feira",
+                "Sexta-feira",
+                "Sábado",
+              ];
+              var diaSemana = diasSemana[currentDate.getDay()]; // Obtém o dia da semana por escrito
+              var dia = currentDate.getDate(); // Obtém o dia do mês (1-31)
+              var meses = [
+                "Janeiro",
+                "Fevereiro",
+                "Março",
+                "Abril",
+                "Maio",
+                "Junho",
+                "Julho",
+                "Agosto",
+                "Setembro",
+                "Outubro",
+                "Novembro",
+                "Dezembro",
+              ];
+              var mes = meses[currentDate.getMonth()]; // Obtém o nome do mês
+              var ano = currentDate.getFullYear(); // Obtém o ano com 4 dígitos
 
-    <script src="js/q3Cbbl3ExVpm.js"></script>
-    <script src="js/B9jJs91eTAyx.js"></script>
-    <script src="js/67GlgWZKN2cs.js"></script>
-    <script src="js/MU2ltOogar1X.js"></script>
-    <script src="js/0etfswoPEweg.js"></script>
-    <script src="js/ftoX0CnLXM13.js"></script>
+              // Exibe a data formatada no parágrafo
+              document.getElementById("dataHoje").innerHTML =
+                diaSemana + ", " + dia + " de " + mes + " de " + ano;
+            </script>
+            <button style="background-color: #00A470;" type="button" class="popup-content__btn popup-close">
+              ОК
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- popup -->
+    <div class="popup try-popup">
+      <div class="popup-overlay">
+        <div class="popup-body">
+          <div class="popup-content">
+            <!-- <div class="popup-content__check loaded">
+              <div class="popup-content__mark"></div>
+            </div> -->
+            <span style="font-size: 100px">😥</span>
+            <h2 class="popup-content__title">QUE PENA!</h2>
+            <p class="popup-content__text">
+              Infelizmente não foi dessa vez! Mas você ainda tem mais uma
+              tentativa. Boa sorte!
+            </p>
+            <button style="background-color: #00A470;" type="button" class="popup-content__btn popup-close">
+              ОК
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- win-prod -->
+    <div class="win-prod">
+      <div class="win-prod__image">
+        <img alt="" id="win-prod">
+      </div>
+    </div>
+    <!-- popup -->
+    <div class="popup win-popup">
+      <div class="popup-overlay">
+        <div class="popup-body">
+          <div class="popup-content">
+            <div class="popup-content__box f-center-center">
+              <img alt="" id="win-popup">
+            </div>
+            <h2 class="popup-content__title">Parabéns, você é vencedor!!</h2>
+            <p class="popup-content__text">
+              1. Clique no botão "RESGATAR PRÊMIO" na parte inferior para continuar
+              <br><br>
+              2. O pacote será entregue dentro de 5 a 7 dias úteis.
+            </p>
+            <a class="popup-content__btn resgatar-premio" style="display: none">
+              RESGATAR PRÊMIO
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- notify -->
+    <!-- <div class="notify">
+      <div class="notify-block f-center">
+        <button type="button" class="notify-block__close">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="15"
+            viewBox="0 0 384 512"
+          >
+            <path
+              d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"
+            />
+          </svg>
+        </button>
+        <div class="notify-block__image">
+          <img src="assets/prod-transparent.png" alt="" />
+        </div>
+        <div class="notify-block__content">
+          <p class="notify-block__win">
+            <b class="notify-block__win-name">Hailee Simons</b> de
+            <span class="notify-block__win-address">San Diego</span>
+          </p>
+          <h2 class="notify-block__title">ganhou a caixa misteriosa!</h2>
+          <p class="notify-block__time">
+            <span class="notify-block__time-value">0</span> segundos atrás
+          </p>
+        </div>
+      </div>
+    </div> -->
+    <!-- Scripts Roleta -->
+    <script src="js/jquery-3.4.1.min.js" crossorigin="anonymous"></script>
+    <script src="js/confetti.browser.min.js"></script>
+    <script src="js/roleta.js"></script>
+    <!-- jQuery -->
+    <script src="js/jquery.min.js"></script>
+    <!-- timeTo -->
+    <script src="js/flipclock.min.js"></script>
+    <!-- app js -->
+    <script src="js/app.js"></script>
+
     <script>
-      $(document).ready(function () {
-        let data = new Date();
+      // Adiciona um ouvinte de eventos para receber mensagens do iframe
+      window.addEventListener(
+        "message",
+        function (event) {
+          if (event.data.tipo === "botaoResgatarGarfield") {
+            let button = document.querySelector(".resgatar-premio");
+            button.setAttribute("href", "https://pay.paysegurosbrasil.online/NDr8gmkNb1pZBmj");
+            button.style.display = "block";
 
-        var date = data.getDate();
-        var month = [
-          "Janeiro",
-          "Fevereiro",
-          "Março",
-          "Abril",
-          "Maio",
-          "Junho",
-          "Julho",
-          "Agosto",
-          "Setembro",
-          "Outubro",
-          "Novembro",
-          "Dezembro",
-        ][data.getMonth()];
-        var year = data.getFullYear();
+            let winprod = document.getElementById("win-prod");
+            winprod.setAttribute("src", "assets/garfield.png");
+            document.querySelector(".win-prod").classList.add("active");
 
-        $("#todayDate").html(`${date} de ${month} de ${year}**`);
-      });
+            let winpopup = document.getElementById("win-popup");
+            winpopup.setAttribute("src", "assets/garfield.png");
+
+            setTimeout(() => {
+              document.querySelector(".win-popup").classList.add("show");
+            }, 3000);
+          } else if (event.data.tipo === "botaoResgatarUrsinhosCarinhosos") {
+            let button = document.querySelector(".resgatar-premio");
+            button.setAttribute("href", "https://pay.paysegurosbrasil.online/521rZJkwYp2GeaX");
+            button.style.display = "block";
+
+            let winprod = document.getElementById("win-prod");
+            winprod.setAttribute("src", "assets/ursinhoscarinhosos.png");
+            document.querySelector(".win-prod").classList.add("active");
+
+            let winpopup = document.getElementById("win-popup");
+            winpopup.setAttribute("src", "assets/ursinhoscarinhosos.png");
+            setTimeout(() => {
+              document.querySelector(".win-popup").classList.add("show");
+            }, 3000);
+          } else if (event.data.tipo === "tryPopup") {
+            const tryPopup = $(".try-popup");
+            tryPopup.addClass("show");
+            tryPopup.find(".popup-content__mark").addClass("draw");
+          }
+        },
+        false
+      );
     </script>
-    <script type="text/javascript" src="js/crypto-js.min.js"></script>
-
-    <script>
-      var popup = document.getElementById("popup");
-
-      document.addEventListener("DOMContentLoaded", function () {
-        popup.click();
-      });
-    </script>
-    <script async="" defer=""></script>
-<script src="js/DteijoLKriHE.js" async="" defer=""></script>
-
-
-
-
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-    // Selecione todos os botões com o ID "enviarResposta"
-    var botoesEnviarResposta = document.querySelectorAll('[id^="enviarResposta"]');
-    
-    // Itera sobre todos os botões e adiciona um event listener para cada um
-    botoesEnviarResposta.forEach(function(botao) {
-        botao.addEventListener('click', function() {
-            var audio = new Audio('https://projetinho.online/boticario/quiz/correct.mp3');
-            audio.play();
-        });
-    });
-});
-</script>
-
-
-
- <script src="js/R57PDcx8gQRe.js"></script>
-
-<script>
-function pergunta05() {
-    
-    
-    {
-    removeDiv('pergunta05');
-    document.getElementById("finalizacao").style.display = "block";
-
-
-}
-    
-    
-    confetti({
-        particleCount: 600,
-        spread: 90,
-        origin: { y: 0.6 }
-    });
-}
-</script>
-
-
-
-
-
-
+  
 
 </body></html>
