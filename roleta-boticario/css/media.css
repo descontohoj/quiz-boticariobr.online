@@ -1,0 +1,158 @@
+@media screen and (max-width: 992px) {
+  .header-more__item {
+    display: none;
+  }
+  .header-more__item:last-child {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .header-links {
+    display: none;
+  }
+  .header-wrapper .header-country {
+    display: none;
+  }
+  .header-search {
+    -webkit-box-ordinal-group: 5;
+        -ms-flex-order: 4;
+            order: 4;
+    width: 100%;
+    margin: 0;
+  }
+  .header-wrapper__container {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    height: auto;
+  }
+  .header-wrapper {
+    padding: 10px 0;
+  }
+  .header-search {
+    margin-top: 10px;
+  }
+  .header-wrapper {
+    background: #232f3e;
+  }
+  .header-cart__text {
+    display: none;
+  }
+  .header-more__item.desktop-hidden {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .header-sign__text {
+    color: #fff;
+    margin-right: 10px;
+    font-size: 13px;
+    font-weight: 400;
+  }
+  .header-sign__icon {
+    width: 35px;
+    display: block;
+    height: 27px;
+    text-indent: -500px;
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+    background-image: url("../images/new-nav-sprite-global-2x_blueheaven-account._CB658093420_.png");
+    background-position: -141px -300px;
+    background-size: 275px;
+  }
+  .header-more__item {
+    margin-right: 10px;
+  }
+  .header-logo {
+    width: 80px;
+  }
+  .header-toggle {
+    display: block;
+    margin-right: 14px;
+    background-image: url("../images/new-nav-sprite-global-2x_blueheaven-account._CB658093420_.png");
+    width: 20px;
+    height: 20px;
+    background-size: 275px;
+    background-position: -20px -378px;
+    text-indent: -500px;
+  }
+  .header-delivery {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background-color: #37475A;
+    padding: 12px 0px;
+  }
+  .header-country {
+    margin: 0;
+  }
+  .header-country__content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .header-country__icon {
+    margin-top: 0;
+  }
+  .header-country__title {
+    margin-right: 4px;
+  }
+  .header-country__title {
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+  }
+  .header-country__icon {
+    margin-right: 6px;
+  }
+}
+
+@media screen and (max-width: 832px) {
+  .gift-list__item {
+    width: 33.333%;
+    height: auto;
+  }
+  .gift-list__item:nth-last-child(1), .gift-list__item:nth-last-child(2), .gift-list__item:nth-last-child(3) {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .quiz-reviews__rating span {
+    font-size: 30px;
+  }
+  .main-content__text {
+    line-height: 140%;
+  }
+  .main-content__image img {
+    width: 80%;
+  }
+  .quiz {
+    padding-bottom: 60px;
+    padding-top: 10px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .gift-list__gift img {
+    width: 40px;
+  }
+  .gift-list__item {
+    margin-bottom: 35px;
+  }
+  .popup-body {
+    width: 98%;
+  }
+  .gift-list__item.win .gift-list__gift {
+    bottom: 50%;
+  }
+  .question-popup {
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .notify {
+    right: 10px;
+  }
+}
+/*# sourceMappingURL=media.css.map */
